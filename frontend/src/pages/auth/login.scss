@@ -1,0 +1,17 @@
+/** @format */
+
+// @import '../../scss/variables.scss';
+@import 'variables.scss';
+
+.login {
+  &__header {
+    &--main {
+      color: $color-red;
+      font-size: 2rem;
+    }
+
+    &--sub {
+      color: $color-green;
+    }
+  }
+}
